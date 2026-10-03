@@ -23,7 +23,7 @@ data={
     "city":["new york","los angeles","chicago"]
 }
 df=pd.DataFrame(data)
-df.to_csv("sampledata.csv",index=False)
+df.to_csv("sampledata.csv")
 st.write("here is the another dataframe")
 st.write(df)
 
